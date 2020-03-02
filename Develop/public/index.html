@@ -51,7 +51,7 @@
         window.addEventListener("load", () => {
             navigator.serviceWorker.register("./service-worker.js")
                 .then(reg => {
-                    console.log("Service worker file located", reg)
+                    console.log("The service worker file is located", reg)
                 })
         })
     };
